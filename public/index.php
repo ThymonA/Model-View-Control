@@ -12,7 +12,6 @@ define('APPS', ROOT_DIR . 'apps' . DS);
 require_once APP_DIR . '__load__.php';
 
 $application = new application();
-$test = json_encode($application->getAllApps());
+$application->render();
 
 ?>
-<?=$test ?>

@@ -37,7 +37,6 @@ function AllArguments() {
     $URIParts = explode("/", $currentURI);
     $URIParts = array_filter($URIParts,function($v){ return strlen($v) > 0; });
     if(isset($URIParts[0])) unset($URIParts[0]);
-    if(isset($URIParts[1])) unset($URIParts[1]);
     $URIParts = array_values($URIParts);
     return $URIParts ?? [];
 }
@@ -47,7 +46,6 @@ function Argument($number = 0) {
     $URIParts = explode("/", $currentURI);
     $URIParts = array_filter($URIParts,function($v){ return strlen($v) > 0; });
     if(isset($URIParts[0])) unset($URIParts[0]);
-    if(isset($URIParts[1])) unset($URIParts[1]);
     $URIParts = array_values($URIParts);
     return $URIParts[$number] ?? false;
 }
@@ -57,23 +55,8 @@ function ArgumentCount() {
     $URIParts = explode("/", $currentURI);
     $URIParts = array_filter($URIParts,function($v){ return strlen($v) > 0; });
     if(isset($URIParts[0])) unset($URIParts[0]);
-    if(isset($URIParts[1])) unset($URIParts[1]);
     $URIParts = array_values($URIParts);
     return count($URIParts ?? []);
-}
-
-function CurrentController() {
-    $currentURI = preg_replace("/\?.+/", "", str_replace(getCurrentHost(), '', getCurrentURI()));
-    $URIParts = explode("/", $currentURI);
-    $URIParts = array_filter($URIParts,function($v){ return strlen($v) > 0; });
-    return ucfirst($URIParts[0] ?? 'home');
-}
-
-function CurrentAction() {
-    $currentURI = preg_replace("/\?.+/", "", str_replace(getCurrentHost(), '', getCurrentURI()));
-    $URIParts = explode("/", $currentURI);
-    $URIParts = array_filter($URIParts,function($v){ return strlen($v) > 0; });
-    return ucfirst($URIParts[1] ?? 'index');
 }
 
 function GetBetween($content,$start,$end)

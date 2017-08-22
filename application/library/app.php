@@ -5,6 +5,7 @@ class app
     private $application;
     private $app = '';
     private $fail = false;
+    private $route = '';
 
     public function __construct() {
         $this->application = new application();
@@ -40,6 +41,16 @@ class app
 
     public function addRoute($route, $function, $defaultArguments = []) {
         if(isset($this->app) && $this->app != '' && is_array($defaultArguments) && is_string($route) && is_string($function) && $this->fail == false && $this->application->setRoute($this->app, $route, $function, $defaultArguments) == true) {
+            $this->route = $route;
+            return $this;
+        } else {
+            $this->fail = true;
+            return $this;
+        }
+    }
+
+    public function setAsDefault() {
+        if(isset($this->app) && $this->app != '' && $this->fail == false && is_string($this->route) && $this->route != '' && $this->application->setAsDefaultRoute($this->app, $this->route) == true) {
             return $this;
         } else {
             $this->fail = true;
