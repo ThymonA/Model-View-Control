@@ -1,0 +1,1106 @@
+#ninzio-slider {
+    background-color: #135da8;
+    background-image: url(../upload/slider_pattern.png);
+    background-repeat: repeat-x;
+    background-attachment: inherit;
+    -webkit-background-size: inherit;
+    -moz-background-size: inherit;
+    background-size: inherit;
+    background-position: left top;
+}
+
+.ninzio-slides li#post-21 {
+    background-color: #135ea8;
+}
+
+.ninzio-slides li#post-21 {
+    background-image: url(../upload/slider_bg1.jpg);
+}
+
+.active #ninzio-layer-21-1 {
+    z-index: 2;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 300ms;
+    transition-duration: 300ms;
+    transition-delay: 300ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-21-1 {
+    -webkit-transition-delay: 0ms;
+    transition-delay: 0ms;
+}
+
+.active #ninzio-layer-21-2 {
+    z-index: 1;
+    -webkit-transition-duration: 2000ms;
+    -webkit-transition-delay: 300ms;
+    transition-duration: 2000ms;
+    transition-delay: 300ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-21-2 {
+    -webkit-transition-delay: 0ms;
+    transition-delay: 0ms;
+}
+
+.active #ninzio-layer-21-3 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 600ms;
+    transition-duration: 300ms;
+    transition-delay: 600ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-21-3 {
+    -webkit-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+
+.active #ninzio-layer-21-4 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 900ms;
+    transition-duration: 300ms;
+    transition-delay: 900ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-21-4 {
+    -webkit-transition-delay: 600ms;
+    transition-delay: 600ms;
+}
+
+.active #ninzio-layer-21-5 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 1200ms;
+    transition-duration: 300ms;
+    transition-delay: 1200ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-21-5 {
+    -webkit-transition-delay: 900ms;
+    transition-delay: 900ms;
+}
+
+.ninzio-slides li#post-65 {
+    background-color: #135ea8;
+}
+
+.ninzio-slides li#post-65 {
+    background-image: url(../upload/slider_bg1.jpg);
+}
+
+.active #ninzio-layer-65-1 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 300ms;
+    transition-duration: 300ms;
+    transition-delay: 300ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-65-1 {
+    -webkit-transition-delay: 0ms;
+    transition-delay: 0ms;
+}
+
+.active #ninzio-layer-65-2 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 600ms;
+    transition-duration: 300ms;
+    transition-delay: 600ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-65-2 {
+    -webkit-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+
+.active #ninzio-layer-65-3 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 900ms;
+    transition-duration: 300ms;
+    transition-delay: 900ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-65-3 {
+    -webkit-transition-delay: 600ms;
+    transition-delay: 600ms;
+}
+
+.active #ninzio-layer-65-5 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 1200ms;
+    transition-duration: 300ms;
+    transition-delay: 1200ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-65-5 {
+    -webkit-transition-delay: 900ms;
+    transition-delay: 900ms;
+}
+
+.ninzio-slides li#post-70 {
+    background-color: #135ea8;
+}
+
+.ninzio-slides li#post-70 {
+    background-image: url(../upload/slider_bg1.jpg);
+}
+
+.active #ninzio-layer-70-1 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 300ms;
+    transition-duration: 300ms;
+    transition-delay: 300ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-70-1 {
+    -webkit-transition-delay: 0ms;
+    transition-delay: 0ms;
+}
+
+.active #ninzio-layer-70-2 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 300ms;
+    transition-duration: 300ms;
+    transition-delay: 300ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-70-2 {
+    -webkit-transition-delay: 0ms;
+    transition-delay: 0ms;
+}
+
+.active #ninzio-layer-70-3 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 600ms;
+    transition-duration: 300ms;
+    transition-delay: 600ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-70-3 {
+    -webkit-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+
+.active #ninzio-layer-70-4 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 900ms;
+    transition-duration: 300ms;
+    transition-delay: 900ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-70-4 {
+    -webkit-transition-delay: 600ms;
+    transition-delay: 600ms;
+}
+
+.active #ninzio-layer-70-5 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 1200ms;
+    transition-duration: 300ms;
+    transition-delay: 1200ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-70-5 {
+    -webkit-transition-delay: 900ms;
+    transition-delay: 900ms;
+}
+
+.ninzio-slides li#post-73 {
+    background-color: #135ea8;
+}
+
+.ninzio-slides li#post-73 {
+    background-image: url(../upload/slider_bg1.jpg);
+}
+
+.active #ninzio-layer-73-1 {
+    z-index: 2;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 300ms;
+    transition-duration: 300ms;
+    transition-delay: 300ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-73-1 {
+    -webkit-transition-delay: 0ms;
+    transition-delay: 0ms;
+}
+
+.active #ninzio-layer-73-2 {
+    z-index: 1;
+    -webkit-transition-duration: 2000ms;
+    -webkit-transition-delay: 300ms;
+    transition-duration: 2000ms;
+    transition-delay: 300ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-73-2 {
+    -webkit-transition-delay: 0ms;
+    transition-delay: 0ms;
+}
+
+.active #ninzio-layer-73-3 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 600ms;
+    transition-duration: 300ms;
+    transition-delay: 600ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-73-3 {
+    -webkit-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+
+.active #ninzio-layer-73-4 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 900ms;
+    transition-duration: 300ms;
+    transition-delay: 900ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-73-4 {
+    -webkit-transition-delay: 600ms;
+    transition-delay: 600ms;
+}
+
+.active #ninzio-layer-73-5 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 1200ms;
+    transition-duration: 300ms;
+    transition-delay: 1200ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-73-5 {
+    -webkit-transition-delay: 900ms;
+    transition-delay: 900ms;
+}
+
+@media only screen and (min-width: 320px) {
+    #ninzio-slider {
+        height: 150px;
+    }
+    #ninzio-layer-21-1 {
+        left: 5px !important;
+    }
+    .active #ninzio-layer-21-1,
+    #ninzio-layer-21-1.none {
+        top: 16px !important;
+        left: 5px !important;
+    }
+    #ninzio-layer-21-2 {
+        left: 3px !important;
+    }
+    .active #ninzio-layer-21-2,
+    #ninzio-layer-21-2.none {
+        top: 25px !important;
+        left: 3px !important;
+    }
+    #ninzio-layer-21-3 {
+        left: 168px !important;
+    }
+    .active #ninzio-layer-21-3,
+    #ninzio-layer-21-3.none {
+        top: 35px !important;
+        left: 168px !important;
+    }
+    #ninzio-layer-21-4 {
+        left: 163px !important;
+    }
+    .active #ninzio-layer-21-4,
+    #ninzio-layer-21-4.none {
+        top: 73px !important;
+        left: 163px !important;
+    }
+    #ninzio-layer-21-5 {
+        left: 168px !important;
+    }
+    .active #ninzio-layer-21-5,
+    #ninzio-layer-21-5.none {
+        top: 105px !important;
+        left: 168px !important;
+    }
+    #ninzio-layer-65-1 {
+        top: 10px !important;
+    }
+    .active #ninzio-layer-65-1,
+    #ninzio-layer-65-1.none {
+        top: 10px !important;
+        left: 118px !important;
+    }
+    #ninzio-layer-65-2 {
+        top: 38px !important;
+    }
+    .active #ninzio-layer-65-2,
+    #ninzio-layer-65-2.none {
+        top: 38px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-65-3 {
+        top: 75px !important;
+    }
+    .active #ninzio-layer-65-3,
+    #ninzio-layer-65-3.none {
+        top: 75px !important;
+        left: -5px !important;
+    }
+    #ninzio-layer-65-5 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-65-5,
+    #ninzio-layer-65-5.none {
+        top: 100px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-70-1 {
+        top: 33px !important;
+    }
+    .active #ninzio-layer-70-1,
+    #ninzio-layer-70-1.none {
+        top: 33px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-70-2 {
+        top: 36px !important;
+    }
+    .active #ninzio-layer-70-2,
+    #ninzio-layer-70-2.none {
+        top: 36px !important;
+        left: 3px !important;
+    }
+    #ninzio-layer-70-3 {
+        top: 35px !important;
+    }
+    .active #ninzio-layer-70-3,
+    #ninzio-layer-70-3.none {
+        top: 35px !important;
+        left: 168px !important;
+    }
+    #ninzio-layer-70-4 {
+        top: 73px !important;
+    }
+    .active #ninzio-layer-70-4,
+    #ninzio-layer-70-4.none {
+        top: 73px !important;
+        left: 163px !important;
+    }
+    #ninzio-layer-70-5 {
+        top: 105px !important;
+    }
+    .active #ninzio-layer-70-5,
+    #ninzio-layer-70-5.none {
+        top: 105px !important;
+        left: 168px !important;
+    }
+    #ninzio-layer-73-1 {
+        left: 168px !important;
+    }
+    .active #ninzio-layer-73-1,
+    #ninzio-layer-73-1.none {
+        top: 0px !important;
+        left: 168px !important;
+    }
+    #ninzio-layer-73-2 {
+        left: 135px !important;
+    }
+    .active #ninzio-layer-73-2,
+    #ninzio-layer-73-2.none {
+        top: 15px !important;
+        left: 135px !important;
+    }
+    #ninzio-layer-73-3 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-73-3,
+    #ninzio-layer-73-3.none {
+        top: 25px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-73-4 {
+        top: 60px !important;
+    }
+    .active #ninzio-layer-73-4,
+    #ninzio-layer-73-4.none {
+        top: 60px !important;
+        left: -5px !important;
+    }
+    #ninzio-layer-73-5 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-73-5,
+    #ninzio-layer-73-5.none {
+        top: 106px !important;
+        left: 0px !important;
+    }
+    #ninzio-slider .ninzio-layer {
+        -webkit-transform: scale(0.25, 0.25);
+        -ms-transform: scale(0.25, 0.25);
+        transform: scale(0.25, 0.25);
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    #ninzio-slider {
+        height: 228px;
+    }
+    #ninzio-layer-21-1 {
+        left: 8px !important;
+    }
+    .active #ninzio-layer-21-1,
+    #ninzio-layer-21-1.none {
+        top: 25px !important;
+        left: 8px !important;
+    }
+    #ninzio-layer-21-2 {
+        left: 4px !important;
+    }
+    .active #ninzio-layer-21-2,
+    #ninzio-layer-21-2.none {
+        top: 38px !important;
+        left: 4px !important;
+    }
+    #ninzio-layer-21-3 {
+        left: 255px !important;
+    }
+    .active #ninzio-layer-21-3,
+    #ninzio-layer-21-3.none {
+        top: 53px !important;
+        left: 255px !important;
+    }
+    #ninzio-layer-21-4 {
+        left: 247px !important;
+    }
+    .active #ninzio-layer-21-4,
+    #ninzio-layer-21-4.none {
+        top: 110px !important;
+        left: 247px !important;
+    }
+    #ninzio-layer-21-5 {
+        left: 255px !important;
+    }
+    .active #ninzio-layer-21-5,
+    #ninzio-layer-21-5.none {
+        top: 160px !important;
+        left: 255px !important;
+    }
+    #ninzio-layer-65-1 {
+        top: 15px !important;
+    }
+    .active #ninzio-layer-65-1,
+    #ninzio-layer-65-1.none {
+        top: 15px !important;
+        left: 179px !important;
+    }
+    #ninzio-layer-65-2 {
+        top: 57px !important;
+    }
+    .active #ninzio-layer-65-2,
+    #ninzio-layer-65-2.none {
+        top: 57px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-65-3 {
+        top: 114px !important;
+    }
+    .active #ninzio-layer-65-3,
+    #ninzio-layer-65-3.none {
+        top: 114px !important;
+        left: -8px !important;
+    }
+    #ninzio-layer-65-5 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-65-5,
+    #ninzio-layer-65-5.none {
+        top: 152px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-70-1 {
+        top: 49px !important;
+    }
+    .active #ninzio-layer-70-1,
+    #ninzio-layer-70-1.none {
+        top: 49px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-70-2 {
+        top: 54px !important;
+    }
+    .active #ninzio-layer-70-2,
+    #ninzio-layer-70-2.none {
+        top: 54px !important;
+        left: 5px !important;
+    }
+    #ninzio-layer-70-3 {
+        top: 53px !important;
+    }
+    .active #ninzio-layer-70-3,
+    #ninzio-layer-70-3.none {
+        top: 53px !important;
+        left: 255px !important;
+    }
+    #ninzio-layer-70-4 {
+        top: 110px !important;
+    }
+    .active #ninzio-layer-70-4,
+    #ninzio-layer-70-4.none {
+        top: 110px !important;
+        left: 247px !important;
+    }
+    #ninzio-layer-70-5 {
+        top: 160px !important;
+    }
+    .active #ninzio-layer-70-5,
+    #ninzio-layer-70-5.none {
+        top: 160px !important;
+        left: 255px !important;
+    }
+    #ninzio-layer-73-1 {
+        left: 255px !important;
+    }
+    .active #ninzio-layer-73-1,
+    #ninzio-layer-73-1.none {
+        top: 0px !important;
+        left: 255px !important;
+    }
+    #ninzio-layer-73-2 {
+        left: 205px !important;
+    }
+    .active #ninzio-layer-73-2,
+    #ninzio-layer-73-2.none {
+        top: 23px !important;
+        left: 205px !important;
+    }
+    #ninzio-layer-73-3 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-73-3,
+    #ninzio-layer-73-3.none {
+        top: 38px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-73-4 {
+        top: 91px !important;
+    }
+    .active #ninzio-layer-73-4,
+    #ninzio-layer-73-4.none {
+        top: 91px !important;
+        left: -8px !important;
+    }
+    #ninzio-layer-73-5 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-73-5,
+    #ninzio-layer-73-5.none {
+        top: 162px !important;
+        left: 0px !important;
+    }
+    #ninzio-slider .ninzio-layer {
+        -webkit-transform: scale(0.38, 0.38);
+        -ms-transform: scale(0.38, 0.38);
+        transform: scale(0.38, 0.38);
+    }
+}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 768px) {
+    #ninzio-slider {
+        height: 372px;
+    }
+    #ninzio-layer-21-1 {
+        left: 12px !important;
+    }
+    .active #ninzio-layer-21-1,
+    #ninzio-layer-21-1.none {
+        top: 40px !important;
+        left: 12px !important;
+    }
+    #ninzio-layer-21-2 {
+        left: 6px !important;
+    }
+    .active #ninzio-layer-21-2,
+    #ninzio-layer-21-2.none {
+        top: 62px !important;
+        left: 6px !important;
+    }
+    #ninzio-layer-21-3 {
+        left: 415px !important;
+    }
+    .active #ninzio-layer-21-3,
+    #ninzio-layer-21-3.none {
+        top: 87px !important;
+        left: 415px !important;
+    }
+    #ninzio-layer-21-4 {
+        left: 403px !important;
+    }
+    .active #ninzio-layer-21-4,
+    #ninzio-layer-21-4.none {
+        top: 180px !important;
+        left: 403px !important;
+    }
+    #ninzio-layer-21-5 {
+        left: 415px !important;
+    }
+    .active #ninzio-layer-21-5,
+    #ninzio-layer-21-5.none {
+        top: 260px !important;
+        left: 415px !important;
+    }
+    #ninzio-layer-65-1 {
+        top: 25px !important;
+    }
+    .active #ninzio-layer-65-1,
+    #ninzio-layer-65-1.none {
+        top: 25px !important;
+        left: 291px !important;
+    }
+    #ninzio-layer-65-2 {
+        top: 93px !important;
+    }
+    .active #ninzio-layer-65-2,
+    #ninzio-layer-65-2.none {
+        top: 93px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-65-3 {
+        top: 186px !important;
+    }
+    .active #ninzio-layer-65-3,
+    #ninzio-layer-65-3.none {
+        top: 186px !important;
+        left: -12px !important;
+    }
+    #ninzio-layer-65-5 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-65-5,
+    #ninzio-layer-65-5.none {
+        top: 248px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-70-1 {
+        top: 81px !important;
+    }
+    .active #ninzio-layer-70-1,
+    #ninzio-layer-70-1.none {
+        top: 81px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-70-2 {
+        top: 88px !important;
+    }
+    .active #ninzio-layer-70-2,
+    #ninzio-layer-70-2.none {
+        top: 88px !important;
+        left: 7px !important;
+    }
+    #ninzio-layer-70-3 {
+        top: 87px !important;
+    }
+    .active #ninzio-layer-70-3,
+    #ninzio-layer-70-3.none {
+        top: 87px !important;
+        left: 415px !important;
+    }
+    #ninzio-layer-70-4 {
+        top: 180px !important;
+    }
+    .active #ninzio-layer-70-4,
+    #ninzio-layer-70-4.none {
+        top: 180px !important;
+        left: 403px !important;
+    }
+    #ninzio-layer-70-5 {
+        top: 260px !important;
+    }
+    .active #ninzio-layer-70-5,
+    #ninzio-layer-70-5.none {
+        top: 260px !important;
+        left: 415px !important;
+    }
+    #ninzio-layer-73-1 {
+        left: 415px !important;
+    }
+    .active #ninzio-layer-73-1,
+    #ninzio-layer-73-1.none {
+        top: 0px !important;
+        left: 415px !important;
+    }
+    #ninzio-layer-73-2 {
+        left: 335px !important;
+    }
+    .active #ninzio-layer-73-2,
+    #ninzio-layer-73-2.none {
+        top: 37px !important;
+        left: 335px !important;
+    }
+    #ninzio-layer-73-3 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-73-3,
+    #ninzio-layer-73-3.none {
+        top: 62px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-73-4 {
+        top: 149px !important;
+    }
+    .active #ninzio-layer-73-4,
+    #ninzio-layer-73-4.none {
+        top: 149px !important;
+        left: -12px !important;
+    }
+    #ninzio-layer-73-5 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-73-5,
+    #ninzio-layer-73-5.none {
+        top: 264px !important;
+        left: 0px !important;
+    }
+    #ninzio-slider .ninzio-layer {
+        -webkit-transform: scale(0.62, 0.62);
+        -ms-transform: scale(0.62, 0.62);
+        transform: scale(0.62, 0.62);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #ninzio-slider {
+        height: 492px;
+    }
+    #ninzio-layer-21-1 {
+        left: 16px !important;
+    }
+    .active #ninzio-layer-21-1,
+    #ninzio-layer-21-1.none {
+        top: 53px !important;
+        left: 16px !important;
+    }
+    #ninzio-layer-21-2 {
+        left: 8px !important;
+    }
+    .active #ninzio-layer-21-2,
+    #ninzio-layer-21-2.none {
+        top: 82px !important;
+        left: 8px !important;
+    }
+    #ninzio-layer-21-3 {
+        left: 549px !important;
+    }
+    .active #ninzio-layer-21-3,
+    #ninzio-layer-21-3.none {
+        top: 115px !important;
+        left: 549px !important;
+    }
+    #ninzio-layer-21-4 {
+        left: 533px !important;
+    }
+    .active #ninzio-layer-21-4,
+    #ninzio-layer-21-4.none {
+        top: 238px !important;
+        left: 533px !important;
+    }
+    #ninzio-layer-21-5 {
+        left: 549px !important;
+    }
+    .active #ninzio-layer-21-5,
+    #ninzio-layer-21-5.none {
+        top: 344px !important;
+        left: 549px !important;
+    }
+    #ninzio-layer-65-1 {
+        top: 33px !important;
+    }
+    .active #ninzio-layer-65-1,
+    #ninzio-layer-65-1.none {
+        top: 33px !important;
+        left: 385px !important;
+    }
+    #ninzio-layer-65-2 {
+        top: 123px !important;
+    }
+    .active #ninzio-layer-65-2,
+    #ninzio-layer-65-2.none {
+        top: 123px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-65-3 {
+        top: 246px !important;
+    }
+    .active #ninzio-layer-65-3,
+    #ninzio-layer-65-3.none {
+        top: 246px !important;
+        left: -16px !important;
+    }
+    #ninzio-layer-65-5 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-65-5,
+    #ninzio-layer-65-5.none {
+        top: 328px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-70-1 {
+        top: 107px !important;
+    }
+    .active #ninzio-layer-70-1,
+    #ninzio-layer-70-1.none {
+        top: 107px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-70-2 {
+        top: 116px !important;
+    }
+    .active #ninzio-layer-70-2,
+    #ninzio-layer-70-2.none {
+        top: 116px !important;
+        left: 10px !important;
+    }
+    #ninzio-layer-70-3 {
+        top: 115px !important;
+    }
+    .active #ninzio-layer-70-3,
+    #ninzio-layer-70-3.none {
+        top: 115px !important;
+        left: 549px !important;
+    }
+    #ninzio-layer-70-4 {
+        top: 238px !important;
+    }
+    .active #ninzio-layer-70-4,
+    #ninzio-layer-70-4.none {
+        top: 238px !important;
+        left: 533px !important;
+    }
+    #ninzio-layer-70-5 {
+        top: 344px !important;
+    }
+    .active #ninzio-layer-70-5,
+    #ninzio-layer-70-5.none {
+        top: 344px !important;
+        left: 549px !important;
+    }
+    #ninzio-layer-73-1 {
+        left: 549px !important;
+    }
+    .active #ninzio-layer-73-1,
+    #ninzio-layer-73-1.none {
+        top: 0px !important;
+        left: 549px !important;
+    }
+    #ninzio-layer-73-2 {
+        left: 443px !important;
+    }
+    .active #ninzio-layer-73-2,
+    #ninzio-layer-73-2.none {
+        top: 49px !important;
+        left: 443px !important;
+    }
+    #ninzio-layer-73-3 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-73-3,
+    #ninzio-layer-73-3.none {
+        top: 82px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-73-4 {
+        top: 197px !important;
+    }
+    .active #ninzio-layer-73-4,
+    #ninzio-layer-73-4.none {
+        top: 197px !important;
+        left: -16px !important;
+    }
+    #ninzio-layer-73-5 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-73-5,
+    #ninzio-layer-73-5.none {
+        top: 349px !important;
+        left: 0px !important;
+    }
+    #ninzio-slider .ninzio-layer {
+        -webkit-transform: scale(0.82, 0.82);
+        -ms-transform: scale(0.82, 0.82);
+        transform: scale(0.82, 0.82);
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    #ninzio-slider {
+        height: 600px;
+    }
+    #ninzio-layer-21-1 {
+        left: 20px !important;
+    }
+    .active #ninzio-layer-21-1,
+    #ninzio-layer-21-1.none {
+        top: 65px !important;
+        left: 20px !important;
+    }
+    #ninzio-layer-21-2 {
+        left: 10px !important;
+    }
+    .active #ninzio-layer-21-2,
+    #ninzio-layer-21-2.none {
+        top: 100px !important;
+        left: 10px !important;
+    }
+    #ninzio-layer-21-3 {
+        left: 670px !important;
+    }
+    .active #ninzio-layer-21-3,
+    #ninzio-layer-21-3.none {
+        top: 140px !important;
+        left: 670px !important;
+    }
+    #ninzio-layer-21-4 {
+        left: 650px !important;
+    }
+    .active #ninzio-layer-21-4,
+    #ninzio-layer-21-4.none {
+        top: 290px !important;
+        left: 650px !important;
+    }
+    #ninzio-layer-21-5 {
+        left: 670px !important;
+    }
+    .active #ninzio-layer-21-5,
+    #ninzio-layer-21-5.none {
+        top: 420px !important;
+        left: 670px !important;
+    }
+    #ninzio-layer-65-1 {
+        top: 40px !important;
+    }
+    .active #ninzio-layer-65-1,
+    #ninzio-layer-65-1.none {
+        top: 40px !important;
+        left: 470px !important;
+    }
+    #ninzio-layer-65-2 {
+        top: 150px !important;
+    }
+    .active #ninzio-layer-65-2,
+    #ninzio-layer-65-2.none {
+        top: 150px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-65-3 {
+        top: 300px !important;
+    }
+    .active #ninzio-layer-65-3,
+    #ninzio-layer-65-3.none {
+        top: 300px !important;
+        left: -20px !important;
+    }
+    #ninzio-layer-65-5 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-65-5,
+    #ninzio-layer-65-5.none {
+        top: 400px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-70-1 {
+        top: 130px !important;
+    }
+    .active #ninzio-layer-70-1,
+    #ninzio-layer-70-1.none {
+        top: 130px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-70-2 {
+        top: 142px !important;
+    }
+    .active #ninzio-layer-70-2,
+    #ninzio-layer-70-2.none {
+        top: 142px !important;
+        left: 12px !important;
+    }
+    #ninzio-layer-70-3 {
+        top: 140px !important;
+    }
+    .active #ninzio-layer-70-3,
+    #ninzio-layer-70-3.none {
+        top: 140px !important;
+        left: 670px !important;
+    }
+    #ninzio-layer-70-4 {
+        top: 290px !important;
+    }
+    .active #ninzio-layer-70-4,
+    #ninzio-layer-70-4.none {
+        top: 290px !important;
+        left: 650px !important;
+    }
+    #ninzio-layer-70-5 {
+        top: 420px !important;
+    }
+    .active #ninzio-layer-70-5,
+    #ninzio-layer-70-5.none {
+        top: 420px !important;
+        left: 670px !important;
+    }
+    #ninzio-layer-73-1 {
+        left: 670px !important;
+    }
+    .active #ninzio-layer-73-1,
+    #ninzio-layer-73-1.none {
+        top: 0px !important;
+        left: 670px !important;
+    }
+    #ninzio-layer-73-2 {
+        left: 540px !important;
+    }
+    .active #ninzio-layer-73-2,
+    #ninzio-layer-73-2.none {
+        top: 60px !important;
+        left: 540px !important;
+    }
+    #ninzio-layer-73-3 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-73-3,
+    #ninzio-layer-73-3.none {
+        top: 100px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-73-4 {
+        top: 240px !important;
+    }
+    .active #ninzio-layer-73-4,
+    #ninzio-layer-73-4.none {
+        top: 240px !important;
+        left: -20px !important;
+    }
+    #ninzio-layer-73-5 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-73-5,
+    #ninzio-layer-73-5.none {
+        top: 425px !important;
+        left: 0px !important;
+    }
+    #ninzio-slider .ninzio-layer {
+        -webkit-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+}

@@ -1,0 +1,249 @@
+
+    #ninzio-slider {
+        background-color: #007bc8;
+        background-image: url(../upload/modern/slider_pattern.png);
+        background-repeat: repeat-x;
+        background-attachment: inherit;
+        -webkit-background-size: inherit;
+        -moz-background-size: inherit;
+        background-size: inherit;
+        background-position: left top;
+    }
+    
+    .ninzio-slides li#post-9 {
+        background-color: #007bc8;
+    }
+    
+    .ninzio-slides li#post-9:after {
+        position: absolute;
+        top: -1px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: block;
+        background-repeat: repeat;
+        background-position: left top;
+        content: "";
+        background-image: url(../upload/modern/video_overlay.png);
+    }
+    
+    .active #ninzio-layer-9-1 {
+        z-index: 1;
+        -webkit-transition-duration: 300ms;
+        -webkit-transition-delay: 300ms;
+        transition-duration: 300ms;
+        transition-delay: 300ms;
+    }
+    
+    .ninzio-slider.first-active #ninzio-layer-9-1 {
+        -webkit-transition-delay: 0ms;
+        transition-delay: 0ms;
+    }
+    
+    .active #ninzio-layer-9-2 {
+        z-index: 1;
+        -webkit-transition-duration: 300ms;
+        -webkit-transition-delay: 600ms;
+        transition-duration: 300ms;
+        transition-delay: 600ms;
+    }
+    
+    .ninzio-slider.first-active #ninzio-layer-9-2 {
+        -webkit-transition-delay: 300ms;
+        transition-delay: 300ms;
+    }
+    
+    .active #ninzio-layer-9-3 {
+        z-index: 1;
+        -webkit-transition-duration: 300ms;
+        -webkit-transition-delay: 600ms;
+        transition-duration: 300ms;
+        transition-delay: 600ms;
+    }
+    
+    .ninzio-slider.first-active #ninzio-layer-9-3 {
+        -webkit-transition-delay: 300ms;
+        transition-delay: 300ms;
+    }
+    
+    @media only screen and (min-width: 320px) {
+        #ninzio-slider {
+            height: 170px;
+        }
+        #ninzio-layer-9-1 {
+            left: 80px !important;
+        }
+        .active #ninzio-layer-9-1,
+        #ninzio-layer-9-1.none {
+            top: 75px !important;
+            left: 80px !important;
+        }
+        #ninzio-layer-9-2 {
+            top: 113px !important;
+        }
+        .active #ninzio-layer-9-2,
+        #ninzio-layer-9-2.none {
+            top: 113px !important;
+            left: 96px !important;
+        }
+        #ninzio-layer-9-3 {
+            top: 113px !important;
+        }
+        .active #ninzio-layer-9-3,
+        #ninzio-layer-9-3.none {
+            top: 113px !important;
+            left: 148px !important;
+        }
+        #ninzio-slider .ninzio-layer {
+            -webkit-transform: scale(0.25, 0.25);
+            -ms-transform: scale(0.25, 0.25);
+            transform: scale(0.25, 0.25);
+        }
+    }
+    
+    @media only screen and (min-width: 480px) {
+        #ninzio-slider {
+            height: 258px;
+        }
+        #ninzio-layer-9-1 {
+            left: 122px !important;
+        }
+        .active #ninzio-layer-9-1,
+        #ninzio-layer-9-1.none {
+            top: 114px !important;
+            left: 122px !important;
+        }
+        #ninzio-layer-9-2 {
+            top: 171px !important;
+        }
+        .active #ninzio-layer-9-2,
+        #ninzio-layer-9-2.none {
+            top: 171px !important;
+            left: 146px !important;
+        }
+        #ninzio-layer-9-3 {
+            top: 171px !important;
+        }
+        .active #ninzio-layer-9-3,
+        #ninzio-layer-9-3.none {
+            top: 171px !important;
+            left: 224px !important;
+        }
+        #ninzio-slider .ninzio-layer {
+            -webkit-transform: scale(0.38, 0.38);
+            -ms-transform: scale(0.38, 0.38);
+            transform: scale(0.38, 0.38);
+        }
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .ninzio-slides li#post-9 {
+            background-image: url(../upload/modern/poster.jpg);
+        }
+    }
+    
+    @media only screen and (min-width: 768px) {
+        #ninzio-slider {
+            height: 422px;
+        }
+        #ninzio-layer-9-1 {
+            left: 198px !important;
+        }
+        .active #ninzio-layer-9-1,
+        #ninzio-layer-9-1.none {
+            top: 186px !important;
+            left: 198px !important;
+        }
+        #ninzio-layer-9-2 {
+            top: 279px !important;
+        }
+        .active #ninzio-layer-9-2,
+        #ninzio-layer-9-2.none {
+            top: 279px !important;
+            left: 239px !important;
+        }
+        #ninzio-layer-9-3 {
+            top: 279px !important;
+        }
+        .active #ninzio-layer-9-3,
+        #ninzio-layer-9-3.none {
+            top: 279px !important;
+            left: 366px !important;
+        }
+        #ninzio-slider .ninzio-layer {
+            -webkit-transform: scale(0.62, 0.62);
+            -ms-transform: scale(0.62, 0.62);
+            transform: scale(0.62, 0.62);
+        }
+    }
+    
+    @media only screen and (min-width: 1024px) {
+        #ninzio-slider {
+            height: 558px;
+        }
+        #ninzio-layer-9-1 {
+            left: 262px !important;
+        }
+        .active #ninzio-layer-9-1,
+        #ninzio-layer-9-1.none {
+            top: 246px !important;
+            left: 262px !important;
+        }
+        #ninzio-layer-9-2 {
+            top: 369px !important;
+        }
+        .active #ninzio-layer-9-2,
+        #ninzio-layer-9-2.none {
+            top: 369px !important;
+            left: 316px !important;
+        }
+        #ninzio-layer-9-3 {
+            top: 369px !important;
+        }
+        .active #ninzio-layer-9-3,
+        #ninzio-layer-9-3.none {
+            top: 369px !important;
+            left: 484px !important;
+        }
+        #ninzio-slider .ninzio-layer {
+            -webkit-transform: scale(0.82, 0.82);
+            -ms-transform: scale(0.82, 0.82);
+            transform: scale(0.82, 0.82);
+        }
+    }
+    
+    @media only screen and (min-width: 1025px) {
+        #ninzio-slider {
+            height: 680px;
+        }
+        #ninzio-layer-9-1 {
+            left: 320px !important;
+        }
+        .active #ninzio-layer-9-1,
+        #ninzio-layer-9-1.none {
+            top: 300px !important;
+            left: 320px !important;
+        }
+        #ninzio-layer-9-2 {
+            top: 450px !important;
+        }
+        .active #ninzio-layer-9-2,
+        #ninzio-layer-9-2.none {
+            top: 450px !important;
+            left: 385px !important;
+        }
+        #ninzio-layer-9-3 {
+            top: 450px !important;
+        }
+        .active #ninzio-layer-9-3,
+        #ninzio-layer-9-3.none {
+            top: 450px !important;
+            left: 590px !important;
+        }
+        #ninzio-slider .ninzio-layer {
+            -webkit-transform: scale(1, 1);
+            -ms-transform: scale(1, 1);
+            transform: scale(1, 1);
+        }
+    }

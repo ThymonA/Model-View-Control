@@ -1,0 +1,668 @@
+
+#ninzio-slider {
+    background-color: #eceae9;
+}
+
+.ninzio-slides li#post-171 {
+    background-color: #eceae9;
+}
+
+.ninzio-slides li#post-171 {
+    background-image: url(../upload/corporate/slider_bg1.jpg);
+}
+
+.active #ninzio-layer-171-1 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 300ms;
+    transition-duration: 300ms;
+    transition-delay: 300ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-171-1 {
+    -webkit-transition-delay: 0ms;
+    transition-delay: 0ms;
+}
+
+.active #ninzio-layer-171-2 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 600ms;
+    transition-duration: 300ms;
+    transition-delay: 600ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-171-2 {
+    -webkit-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+
+.active #ninzio-layer-171-3 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 900ms;
+    transition-duration: 300ms;
+    transition-delay: 900ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-171-3 {
+    -webkit-transition-delay: 600ms;
+    transition-delay: 600ms;
+}
+
+.active #ninzio-layer-171-4 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 1200ms;
+    transition-duration: 300ms;
+    transition-delay: 1200ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-171-4 {
+    -webkit-transition-delay: 900ms;
+    transition-delay: 900ms;
+}
+
+.ninzio-slides li#post-222 {
+    background-color: #eceae9;
+}
+
+.ninzio-slides li#post-222 {
+    background-image: url(../upload/corporate/slider_bg2.jpg);
+}
+
+.active #ninzio-layer-222-1 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 300ms;
+    transition-duration: 300ms;
+    transition-delay: 300ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-222-1 {
+    -webkit-transition-delay: 0ms;
+    transition-delay: 0ms;
+}
+
+.active #ninzio-layer-222-2 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 600ms;
+    transition-duration: 300ms;
+    transition-delay: 600ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-222-2 {
+    -webkit-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+
+.active #ninzio-layer-222-3 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 900ms;
+    transition-duration: 300ms;
+    transition-delay: 900ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-222-3 {
+    -webkit-transition-delay: 600ms;
+    transition-delay: 600ms;
+}
+
+.active #ninzio-layer-222-4 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 1200ms;
+    transition-duration: 300ms;
+    transition-delay: 1200ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-222-4 {
+    -webkit-transition-delay: 900ms;
+    transition-delay: 900ms;
+}
+
+.ninzio-slides li#post-225 {
+    background-color: #eceae9;
+}
+
+.ninzio-slides li#post-225 {
+    background-image: url(../upload/corporate/slider_bg3.jpg);
+}
+
+.active #ninzio-layer-225-1 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 300ms;
+    transition-duration: 300ms;
+    transition-delay: 300ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-225-1 {
+    -webkit-transition-delay: 0ms;
+    transition-delay: 0ms;
+}
+
+.active #ninzio-layer-225-2 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 600ms;
+    transition-duration: 300ms;
+    transition-delay: 600ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-225-2 {
+    -webkit-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+
+.active #ninzio-layer-225-3 {
+    z-index: 1;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 900ms;
+    transition-duration: 300ms;
+    transition-delay: 900ms;
+}
+
+.ninzio-slider.first-active #ninzio-layer-225-3 {
+    -webkit-transition-delay: 600ms;
+    transition-delay: 600ms;
+}
+
+@media only screen and (min-width: 320px) {
+    #ninzio-slider {
+        height: 140px;
+    }
+    #ninzio-layer-171-1 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-171-1,
+    #ninzio-layer-171-1.none {
+        top: 30px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-171-2 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-171-2,
+    #ninzio-layer-171-2.none {
+        top: 65px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-171-3 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-171-3,
+    #ninzio-layer-171-3.none {
+        top: 90px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-171-4 {
+        left: 51px !important;
+    }
+    .active #ninzio-layer-171-4,
+    #ninzio-layer-171-4.none {
+        top: 90px !important;
+        left: 51px !important;
+    }
+    #ninzio-layer-222-1 {
+        left: 175px !important;
+    }
+    .active #ninzio-layer-222-1,
+    #ninzio-layer-222-1.none {
+        top: 30px !important;
+        left: 175px !important;
+    }
+    #ninzio-layer-222-2 {
+        left: 175px !important;
+    }
+    .active #ninzio-layer-222-2,
+    #ninzio-layer-222-2.none {
+        top: 65px !important;
+        left: 175px !important;
+    }
+    #ninzio-layer-222-3 {
+        left: 175px !important;
+    }
+    .active #ninzio-layer-222-3,
+    #ninzio-layer-222-3.none {
+        top: 90px !important;
+        left: 175px !important;
+    }
+    #ninzio-layer-222-4 {
+        left: 226px !important;
+    }
+    .active #ninzio-layer-222-4,
+    #ninzio-layer-222-4.none {
+        top: 90px !important;
+        left: 226px !important;
+    }
+    #ninzio-layer-225-1 {
+        left: 50px !important;
+    }
+    .active #ninzio-layer-225-1,
+    #ninzio-layer-225-1.none {
+        top: 35px !important;
+        left: 50px !important;
+    }
+    #ninzio-layer-225-2 {
+        left: 95px !important;
+    }
+    .active #ninzio-layer-225-2,
+    #ninzio-layer-225-2.none {
+        top: 60px !important;
+        left: 95px !important;
+    }
+    #ninzio-layer-225-3 {
+        left: 120px !important;
+    }
+    .active #ninzio-layer-225-3,
+    #ninzio-layer-225-3.none {
+        top: 88px !important;
+        left: 120px !important;
+    }
+    #ninzio-slider .ninzio-layer {
+        -webkit-transform: scale(0.25, 0.25);
+        -ms-transform: scale(0.25, 0.25);
+        transform: scale(0.25, 0.25);
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    #ninzio-slider {
+        height: 213px;
+    }
+    #ninzio-layer-171-1 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-171-1,
+    #ninzio-layer-171-1.none {
+        top: 46px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-171-2 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-171-2,
+    #ninzio-layer-171-2.none {
+        top: 99px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-171-3 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-171-3,
+    #ninzio-layer-171-3.none {
+        top: 137px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-171-4 {
+        left: 78px !important;
+    }
+    .active #ninzio-layer-171-4,
+    #ninzio-layer-171-4.none {
+        top: 137px !important;
+        left: 78px !important;
+    }
+    #ninzio-layer-222-1 {
+        left: 266px !important;
+    }
+    .active #ninzio-layer-222-1,
+    #ninzio-layer-222-1.none {
+        top: 46px !important;
+        left: 266px !important;
+    }
+    #ninzio-layer-222-2 {
+        left: 266px !important;
+    }
+    .active #ninzio-layer-222-2,
+    #ninzio-layer-222-2.none {
+        top: 99px !important;
+        left: 266px !important;
+    }
+    #ninzio-layer-222-3 {
+        left: 266px !important;
+    }
+    .active #ninzio-layer-222-3,
+    #ninzio-layer-222-3.none {
+        top: 137px !important;
+        left: 266px !important;
+    }
+    #ninzio-layer-222-4 {
+        left: 344px !important;
+    }
+    .active #ninzio-layer-222-4,
+    #ninzio-layer-222-4.none {
+        top: 137px !important;
+        left: 344px !important;
+    }
+    #ninzio-layer-225-1 {
+        left: 76px !important;
+    }
+    .active #ninzio-layer-225-1,
+    #ninzio-layer-225-1.none {
+        top: 53px !important;
+        left: 76px !important;
+    }
+    #ninzio-layer-225-2 {
+        left: 144px !important;
+    }
+    .active #ninzio-layer-225-2,
+    #ninzio-layer-225-2.none {
+        top: 91px !important;
+        left: 144px !important;
+    }
+    #ninzio-layer-225-3 {
+        left: 182px !important;
+    }
+    .active #ninzio-layer-225-3,
+    #ninzio-layer-225-3.none {
+        top: 133px !important;
+        left: 182px !important;
+    }
+    #ninzio-slider .ninzio-layer {
+        -webkit-transform: scale(0.38, 0.38);
+        -ms-transform: scale(0.38, 0.38);
+        transform: scale(0.38, 0.38);
+    }
+}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 768px) {
+    #ninzio-slider {
+        height: 347px;
+    }
+    #ninzio-layer-171-1 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-171-1,
+    #ninzio-layer-171-1.none {
+        top: 74px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-171-2 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-171-2,
+    #ninzio-layer-171-2.none {
+        top: 161px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-171-3 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-171-3,
+    #ninzio-layer-171-3.none {
+        top: 223px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-171-4 {
+        left: 127px !important;
+    }
+    .active #ninzio-layer-171-4,
+    #ninzio-layer-171-4.none {
+        top: 223px !important;
+        left: 127px !important;
+    }
+    #ninzio-layer-222-1 {
+        left: 434px !important;
+    }
+    .active #ninzio-layer-222-1,
+    #ninzio-layer-222-1.none {
+        top: 74px !important;
+        left: 434px !important;
+    }
+    #ninzio-layer-222-2 {
+        left: 434px !important;
+    }
+    .active #ninzio-layer-222-2,
+    #ninzio-layer-222-2.none {
+        top: 161px !important;
+        left: 434px !important;
+    }
+    #ninzio-layer-222-3 {
+        left: 434px !important;
+    }
+    .active #ninzio-layer-222-3,
+    #ninzio-layer-222-3.none {
+        top: 223px !important;
+        left: 434px !important;
+    }
+    #ninzio-layer-222-4 {
+        left: 561px !important;
+    }
+    .active #ninzio-layer-222-4,
+    #ninzio-layer-222-4.none {
+        top: 223px !important;
+        left: 561px !important;
+    }
+    #ninzio-layer-225-1 {
+        left: 124px !important;
+    }
+    .active #ninzio-layer-225-1,
+    #ninzio-layer-225-1.none {
+        top: 87px !important;
+        left: 124px !important;
+    }
+    #ninzio-layer-225-2 {
+        left: 236px !important;
+    }
+    .active #ninzio-layer-225-2,
+    #ninzio-layer-225-2.none {
+        top: 149px !important;
+        left: 236px !important;
+    }
+    #ninzio-layer-225-3 {
+        left: 298px !important;
+    }
+    .active #ninzio-layer-225-3,
+    #ninzio-layer-225-3.none {
+        top: 217px !important;
+        left: 298px !important;
+    }
+    #ninzio-slider .ninzio-layer {
+        -webkit-transform: scale(0.62, 0.62);
+        -ms-transform: scale(0.62, 0.62);
+        transform: scale(0.62, 0.62);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #ninzio-slider {
+        height: 459px;
+    }
+    #ninzio-layer-171-1 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-171-1,
+    #ninzio-layer-171-1.none {
+        top: 98px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-171-2 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-171-2,
+    #ninzio-layer-171-2.none {
+        top: 213px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-171-3 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-171-3,
+    #ninzio-layer-171-3.none {
+        top: 295px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-171-4 {
+        left: 168px !important;
+    }
+    .active #ninzio-layer-171-4,
+    #ninzio-layer-171-4.none {
+        top: 295px !important;
+        left: 168px !important;
+    }
+    #ninzio-layer-222-1 {
+        left: 574px !important;
+    }
+    .active #ninzio-layer-222-1,
+    #ninzio-layer-222-1.none {
+        top: 98px !important;
+        left: 574px !important;
+    }
+    #ninzio-layer-222-2 {
+        left: 574px !important;
+    }
+    .active #ninzio-layer-222-2,
+    #ninzio-layer-222-2.none {
+        top: 213px !important;
+        left: 574px !important;
+    }
+    #ninzio-layer-222-3 {
+        left: 574px !important;
+    }
+    .active #ninzio-layer-222-3,
+    #ninzio-layer-222-3.none {
+        top: 295px !important;
+        left: 574px !important;
+    }
+    #ninzio-layer-222-4 {
+        left: 742px !important;
+    }
+    .active #ninzio-layer-222-4,
+    #ninzio-layer-222-4.none {
+        top: 295px !important;
+        left: 742px !important;
+    }
+    #ninzio-layer-225-1 {
+        left: 164px !important;
+    }
+    .active #ninzio-layer-225-1,
+    #ninzio-layer-225-1.none {
+        top: 115px !important;
+        left: 164px !important;
+    }
+    #ninzio-layer-225-2 {
+        left: 312px !important;
+    }
+    .active #ninzio-layer-225-2,
+    #ninzio-layer-225-2.none {
+        top: 197px !important;
+        left: 312px !important;
+    }
+    #ninzio-layer-225-3 {
+        left: 394px !important;
+    }
+    .active #ninzio-layer-225-3,
+    #ninzio-layer-225-3.none {
+        top: 287px !important;
+        left: 394px !important;
+    }
+    #ninzio-slider .ninzio-layer {
+        -webkit-transform: scale(0.82, 0.82);
+        -ms-transform: scale(0.82, 0.82);
+        transform: scale(0.82, 0.82);
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    #ninzio-slider {
+        height: 560px;
+    }
+    #ninzio-layer-171-1 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-171-1,
+    #ninzio-layer-171-1.none {
+        top: 120px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-171-2 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-171-2,
+    #ninzio-layer-171-2.none {
+        top: 260px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-171-3 {
+        left: 0px !important;
+    }
+    .active #ninzio-layer-171-3,
+    #ninzio-layer-171-3.none {
+        top: 360px !important;
+        left: 0px !important;
+    }
+    #ninzio-layer-171-4 {
+        left: 205px !important;
+    }
+    .active #ninzio-layer-171-4,
+    #ninzio-layer-171-4.none {
+        top: 360px !important;
+        left: 205px !important;
+    }
+    #ninzio-layer-222-1 {
+        left: 700px !important;
+    }
+    .active #ninzio-layer-222-1,
+    #ninzio-layer-222-1.none {
+        top: 120px !important;
+        left: 700px !important;
+    }
+    #ninzio-layer-222-2 {
+        left: 700px !important;
+    }
+    .active #ninzio-layer-222-2,
+    #ninzio-layer-222-2.none {
+        top: 260px !important;
+        left: 700px !important;
+    }
+    #ninzio-layer-222-3 {
+        left: 700px !important;
+    }
+    .active #ninzio-layer-222-3,
+    #ninzio-layer-222-3.none {
+        top: 360px !important;
+        left: 700px !important;
+    }
+    #ninzio-layer-222-4 {
+        left: 905px !important;
+    }
+    .active #ninzio-layer-222-4,
+    #ninzio-layer-222-4.none {
+        top: 360px !important;
+        left: 905px !important;
+    }
+    #ninzio-layer-225-1 {
+        left: 200px !important;
+    }
+    .active #ninzio-layer-225-1,
+    #ninzio-layer-225-1.none {
+        top: 140px !important;
+        left: 200px !important;
+    }
+    #ninzio-layer-225-2 {
+        left: 380px !important;
+    }
+    .active #ninzio-layer-225-2,
+    #ninzio-layer-225-2.none {
+        top: 240px !important;
+        left: 380px !important;
+    }
+    #ninzio-layer-225-3 {
+        left: 480px !important;
+    }
+    .active #ninzio-layer-225-3,
+    #ninzio-layer-225-3.none {
+        top: 350px !important;
+        left: 480px !important;
+    }
+    #ninzio-slider .ninzio-layer {
+        -webkit-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+}
