@@ -7,4 +7,6 @@ $app->register('home')
     ->addRoute('/category/test/:first/:second/', 'test/index', [
         'first' => 'first argument',
         'second' => 'second argument'
-    ]);
+    ])
+    ->addRoute('/', 'index')
+    ->addRoute('/test/', 'test');

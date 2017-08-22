@@ -197,6 +197,9 @@ class application
             if(substr($currentRoute, -1) != '/') {
                 $currentRoute = $currentRoute . '/';
             }
+            if($route == '@^?$@') {
+                $route = '@^/?$@';
+            }
             preg_match($route, $currentRoute, $matches);
             if(count($matches) > 0) {
                 unset($matches[0]);
