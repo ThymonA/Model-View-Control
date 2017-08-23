@@ -8,5 +8,5 @@ $app->register('home')
         'first' => 'first argument',
         'second' => 'second argument'
     ])
-    ->addRoute('/', 'index')
+    ->addRoute('/', 'index')->setAsDefault()
     ->addRoute('/test/', 'test');

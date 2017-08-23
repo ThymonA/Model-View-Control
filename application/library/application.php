@@ -5,7 +5,7 @@ class application
     private static $apps = [];
     private static $routeList = [];
     private static $routes = [];
-    private static $default = [];
+    private static $default = false;
 
     public function registerApp($name) {
         if(isset(application::$apps[$name])) {
@@ -222,7 +222,17 @@ class application
         }
         $route = $this->getRoute();
         if($route == false) {
-
+            $route = $this->getDefaultRoute();
+            if($route == false) {
+                header("HTTP/1.0 500 Internal Server Error");
+                echo '<center><br><hr><br><h1>ERROR 500</h1><br><p><b>Message: </b>Internal Server Error<br><b>Status: </b>500<br><br><hr><br>Please contact the server administrator <a href="mailto:' . $_SERVER['SERVER_ADMIN'] . '">' . $_SERVER['SERVER_ADMIN'] . '</a></p></center>';
+            } else {
+                $route = $route['route'];
+                if(substr($route, 0, 1) == '/') {
+                    $route = substr($route, 1);
+                }
+                header('Location: ' . getCurrentHost() . $route);
+            }
         } else {
             if(file_exists($route['app']['path'] . 'model' . DS . $route['route']['model'])) {
                 require_once $route['app']['path'] . 'model' . DS . $route['route']['model'];
