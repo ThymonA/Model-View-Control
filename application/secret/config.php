@@ -10,6 +10,7 @@ class config
     const development_mode = true;                          // Example: false                               //
     const website_language = 'nl';                          // Example: 'en'                                //
     const website_content_language = 'nl_nl';               // Example: 'en-gb'                             //
+    const application_name = 'Webshop module';              // Example: 'Thymon & Co'                       //
     //======================================================================================================//
     //                                          Database Config                                             //
     //======================================================================================================//

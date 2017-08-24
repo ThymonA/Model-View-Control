@@ -11,6 +11,10 @@ define('APPS', ROOT_DIR . 'apps' . DS);
 // Load all libraries and configs
 require_once APP_DIR . '__load__.php';
 
+// Start Session
+session_start();
+
+// Run Application
 $application = new application();
 $application->render();
 

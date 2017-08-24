@@ -12,6 +12,10 @@ class app
     }
 
     public function register($name) {
+        $this->app = '';
+        $this->fail = false;
+        $this->route = '';
+        $this->application = new application();
         if(is_string(strtolower($name)) && $this->fail == false && $this->application->registerApp(strtolower($name)) == true) {
             $this->app = strtolower($name);
             return $this;

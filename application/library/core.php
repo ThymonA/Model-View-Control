@@ -2,7 +2,9 @@
 
 // Default Variables //
 $app = new app();
-$rootURL = getCurrentHost();
+$rootURL = '';
+$pageTitle = '';
+$pageContent = '';
 
 function getCurrentHost() {
     $subfolder = str_replace(DOC_ROOT, '', ROOT_DIR);

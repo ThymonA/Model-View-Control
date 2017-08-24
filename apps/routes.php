@@ -10,3 +10,10 @@ $app->register('home')
     ])
     ->addRoute('/', 'index')->setAsDefault()
     ->addRoute('/test/', 'test');
+
+$app->register('admin')
+    ->setTitle('Admin Dashboard')
+    ->setDescription('Admin dashboard for managing webshop: ' . getCurrentHost())
+    ->setTheme('control')
+    ->addRoute('/admin/', 'main')
+    ->addRoute('/admin/signin/', 'signin');

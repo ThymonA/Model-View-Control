@@ -215,6 +215,8 @@ class application
     }
 
     public function render() {
+        global $pageContent, $pageTitle, $rootURL;
+
         if((config::development_mode ?? false) == true) {
             error_reporting(E_ALL);
             ini_set("display_errors", 1);
@@ -225,6 +227,7 @@ class application
             $route = $this->getDefaultRoute();
             if($route == false) {
                 header("HTTP/1.0 500 Internal Server Error");
+                $pageTitle = '500 - ' . (config::application_name ?? '');
                 echo '<center><br><hr><br><h1>ERROR 500</h1><br><p><b>Message: </b>Internal Server Error<br><b>Status: </b>500<br><br><hr><br>Please contact the server administrator <a href="mailto:' . $_SERVER['SERVER_ADMIN'] . '">' . $_SERVER['SERVER_ADMIN'] . '</a></p></center>';
             } else {
                 $route = $route['route'];
@@ -242,10 +245,14 @@ class application
                     $class = str_replace('.php', '', $route['route']['model']);
                     $app = new $class();
                 }
+                $pageTitle = ($route['app']['title'] ?? '') . ' - ' . (config::application_name ?? '');
+                $rootURL = getCurrentHost();
                 if(count($route['params']) > 0) {
-                    call_user_func_array([$app, $route['route']['function']], $route['params']);
+                    $pageContent = call_user_func_array([$app, $route['route']['function']], $route['params']);
+                    include_once APP_DIR . 'layout' . DS . ($route['app']['theme'] ?? 'default') .DS . 'index.phtml';
                 } else {
-                    $app->{$route['route']['function']}();
+                    $pageContent = $app->{$route['route']['function']}();
+                    include_once APP_DIR . 'layout' . DS . ($route['app']['theme'] ?? 'default') .DS . 'index.phtml';
                 }
             }
         }

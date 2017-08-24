@@ -1,12 +1,13 @@
 <?php
 
-class home
+class home extends model
 {
     public function index() {
-        echo 'je zit nu op de index';
+        $application = new application();
+        return 'test';
     }
 
     public function test($param = 'none') {
-        echo 'je zit nu op de test met param = ' . $param;
+        return 'je zit nu op de test met param = ' . $param;
     }
 }
