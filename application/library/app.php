@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Class app
+ * @author   Thymon Arens <contact@thymonarens.nl>
+ * @version 1.0 2017-08-22-STARTED (NOT RELEASED)
+ * @link https://github.com/ThymonA/webshop/
+ */
+
 class app
 {
     private $application;
