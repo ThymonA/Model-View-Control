@@ -9,9 +9,8 @@
 $app->register('home')
     ->setTitle('Home')
     ->setDescription('Default Home Description')
-    ->addRoute('/category/test/:username/:second/', 'test/index', [
-        'username' => 'test',
-        'second' => 'second argument'
+    ->addRoute('/user/:username/', 'test/index', [
+        'username' => 'test'
     ])
     ->addRoute('/', 'index')->setAsDefault()
     ->addRoute('/test/', 'test');

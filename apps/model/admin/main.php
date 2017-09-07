@@ -18,6 +18,6 @@ class admin extends model
     }
 
     public function signin() {
-        return 'signin page';
+
     }
 }

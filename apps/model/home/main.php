@@ -10,10 +10,10 @@
 class home extends model
 {
     public function index() {
-        echo blade()->run('home');
+        echo blade()->run('home.main');
     }
 
     public function test($username = 'none') {
-        echo blade()->run('home');
+        echo blade()->run('home.main');
     }
 }

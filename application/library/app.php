@@ -68,13 +68,4 @@ class app
             return $this;
         }
     }
-
-    public function setTheme($theme) {
-        if(isset($this->app) && $this->app != '' && $this->fail == false && $this->application->setTheme($this->app, $theme) == true) {
-            return $this;
-        } else {
-            $this->fail = true;
-            return $this;
-        }
-    }
 }

@@ -24,7 +24,7 @@ class config
     const db_type = 'mysql';                                // Example: 'mysql'                             //
     const db_server = '127.0.0.1';                          // Example: 'localhost' or '127.0.0.1'          //
     const db_username = 'username';                         // Example: 'username'                          //
-    const db_password = 'password';                         // Example: 'password'                          //
+    const db_password = '';                         // Example: 'password'                          //
     const db_database = 'database';                         // Example: 'database'                          //
     const db_port = 3306;                                   // Example: 3306                                //
     const db_charset = 'utf8';                              // Example: 'utf8'                              //

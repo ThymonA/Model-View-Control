@@ -9,8 +9,8 @@
 
 class test extends model
 {
-    function index($username, $param2) {
-        echo blade()->run('home', [
+    function index($username) {
+        echo blade()->run('admin.main', [
             'username' => $username
         ]);
     }

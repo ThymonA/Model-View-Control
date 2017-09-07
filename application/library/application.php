@@ -17,9 +17,9 @@ class application
     public function registerApp($name) {
         if(isset(application::$apps[$name])) {
             return false;
-        } else if(file_exists(ROOT_DIR . 'apps' . DS . strtolower($name) . DS)) {
+        } else if(file_exists(ROOT_DIR . 'apps' . DS . 'model' . DS . strtolower($name) . DS)) {
             application::$apps[$name] = [];
-            application::$apps[$name]['path'] = ROOT_DIR . 'apps' . DS . $name . DS;
+            application::$apps[$name]['path'] = ROOT_DIR . 'apps' . DS . 'model' . DS . $name . DS;
             application::$apps[$name]['routes'] = [];
             return true;
         } else {
@@ -43,25 +43,6 @@ class application
         } else {
             return false;
         }
-    }
-
-    public function setTheme($name, $theme) {
-        if(isset(application::$apps[$name]) && file_exists(APP_DIR . 'layout' . DS . strtolower($theme) . DS)) {
-            application::$apps[$name]['theme'] = $theme;
-            return true;
-        } else {
-            application::$apps[$name]['theme'] = 'default';
-            return false;
-        }
-    }
-
-    public function routeExist($name, $route) {
-        for($i = 0; $i < count(application::$apps[$name]['routes']); $i++) {
-            if(application::$apps[$name]['routes'][$i]['route'] == $route) {
-
-            }
-        }
-        return false;
     }
 
     public function setAsDefaultRoute($name, $route) {
@@ -132,12 +113,13 @@ class application
             $regexRoute = '@^' . $regexRoute .= '?$@';
             switch(count($_function)) {
                 case 1:
-                    if(file_exists(APPS . $name . DS . 'model' . DS . 'index.php')) {
-                        require_once APPS . $name . DS . 'model' . DS . 'index.php';
+                    if(file_exists(APPS . 'model' . DS . $name . DS . 'main.php')) {
+                        require_once APPS . 'model' . DS . $name . DS . 'main.php';
                         $app = new $name();
                         if (method_exists($app, $_function[0])) {
                             array_push(application::$routeList, [
                                 'route' => strtolower($route),
+                                'path' => APPS . 'model' . DS . $name . DS . 'main.php',
                                 'CountArguments' => $argumentsCount,
                                 'ArgumentList' => $argumentList,
                                 'DefaultArguments' => $defaultArguments,
@@ -152,12 +134,13 @@ class application
                     } else return false;
                     break;
                 case 2:
-                    if(file_exists(APPS . $name . DS . 'model' . DS . strtolower($_function[0] ?? '') . '.php')) {
-                        require_once APPS . $name . DS . 'model' . DS . strtolower($_function[0] ?? '') . '.php';
+                    if(file_exists(APPS . 'model' . DS . $name . DS . strtolower($_function[0] ?? '') . '.php')) {
+                        require_once APPS . 'model' . DS . $name . DS . strtolower($_function[0] ?? '') . '.php';
                         $app = new $_function[0]();
                         if (method_exists($app, $_function[1])) {
                             array_push(application::$routeList, [
                                 'route' => strtolower($route),
+                                'path' => APPS . 'model' . DS . $name . DS . strtolower($_function[0] ?? '') . '.php',
                                 'CountArguments' => $argumentsCount,
                                 'ArgumentList' => $argumentList,
                                 'DefaultArguments' => $defaultArguments,
@@ -244,8 +227,8 @@ class application
                 header('Location: ' . getCurrentHost() . $route);
             }
         } else {
-            if(file_exists($route['app']['path'] . 'model' . DS . $route['route']['model'])) {
-                require_once $route['app']['path'] . 'model' . DS . $route['route']['model'];
+            if(file_exists($route['route']['path'])) {
+                require_once $route['route']['path'];
                 if($route['route']['model'] == 'index.php') {
                     $app = new $route['route']['app']();
                 } else {
