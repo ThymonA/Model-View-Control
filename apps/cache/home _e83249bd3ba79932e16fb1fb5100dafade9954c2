@@ -1,0 +1,1 @@
+<h1>Test <?php echo static::e($username ?? 'no username given'); ?>!</h1>

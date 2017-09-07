@@ -19,4 +19,8 @@ class model {
             die('Query isn\'t a string');
         }
     }
+
+    public function select($name) {
+        return new DB($name);
+    }
 }

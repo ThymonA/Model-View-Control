@@ -3,11 +3,10 @@
 class home extends model
 {
     public function index() {
-        $application = new application();
-        return 'test';
+        echo blade()->run('home');
     }
 
-    public function test($param = 'none') {
-        return 'je zit nu op de test met param = ' . $param;
+    public function test($username = 'none') {
+        echo blade()->run('home');
     }
 }

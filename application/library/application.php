@@ -248,11 +248,9 @@ class application
                 $pageTitle = ($route['app']['title'] ?? '') . ' - ' . (config::application_name ?? '');
                 $rootURL = getCurrentHost();
                 if(count($route['params']) > 0) {
-                    $pageContent = call_user_func_array([$app, $route['route']['function']], $route['params']);
-                    include_once APP_DIR . 'layout' . DS . ($route['app']['theme'] ?? 'default') .DS . 'index.phtml';
+                    call_user_func_array([$app, $route['route']['function']], $route['params']);
                 } else {
-                    $pageContent = $app->{$route['route']['function']}();
-                    include_once APP_DIR . 'layout' . DS . ($route['app']['theme'] ?? 'default') .DS . 'index.phtml';
+                    $app->{$route['route']['function']}();
                 }
             }
         }

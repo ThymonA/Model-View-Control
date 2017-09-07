@@ -70,3 +70,8 @@ function GetBetween($content,$start,$end)
     }
     return '';
 }
+
+function blade() {
+    global $blade;
+    return $blade;
+}
