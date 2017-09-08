@@ -77,7 +77,33 @@ function GetBetween($content,$start,$end)
     return '';
 }
 
+function getPageTitle() {
+    global $pageTitle;
+    return $pageTitle;
+}
+
 function blade() {
     global $blade;
     return $blade;
+}
+
+function RenderHeader($theme = 'default') {
+    echo blade()->run($theme . '.header');
+}
+
+function RenderFooter($theme = 'default') {
+    echo blade()->run($theme . '.footer');
+}
+
+function application() {
+    global $application;
+    return $application;
+}
+
+function navActive($route = '/') {
+    if(application()->routeMatch(application()->routeToRegex($route))) {
+        return 'active';
+    } else {
+        return 'not-active';
+    }
 }

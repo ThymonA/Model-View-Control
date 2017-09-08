@@ -19,5 +19,5 @@ $app->register('admin')
     ->setTitle('Admin Dashboard')
     ->setDescription('Admin dashboard for managing webshop: ' . getCurrentHost())
     ->addRoute('/admin/', 'main')
-    ->addRoute('/admin/signin/', 'signin');
+    ->addRoute('/admin/signin/', 'sign_in');
 

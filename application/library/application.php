@@ -199,13 +199,55 @@ class application
                     'route' => application::$routeList[$key],
                     'app' => application::$apps[application::$routeList[$key]['app']]
                     ];
+                break;
             }
         }
         return $return;
     }
 
+    public function routeMatch($route = '@^/?$@') {
+        $currentRoute = str_replace(getCurrentHost(), '', getCurrentURI());
+        if(substr($currentRoute, 0, 1) != '/') {
+            $currentRoute = '/' . $currentRoute;
+        }
+        if(substr($currentRoute, -1) != '/') {
+            $currentRoute = $currentRoute . '/';
+        }
+        if($route == '@^?$@') {
+            $route = '@^/?$@';
+        }
+        preg_match($route, $currentRoute, $matches);
+        return (count($matches) > 0);
+    }
+
+    public function routeToRegex($route = '/') {
+        $arguments = UrlToArguments($route);
+        $route = '';
+        $regexRoute = '';
+        $argumentFount = false;
+        foreach ($arguments as $argument) {
+            if(substr($argument, 0, 1) == ':') {
+                if($route != '') {
+                    $regexRoute .= '([a-zA-Z0-9-_]+)/';
+                } else {
+                    return false;
+                }
+            } else if($argumentFount == false) {
+                if($route == '') {
+                    $route .= '/' . $argument . '/';
+                    $regexRoute .= '/' . $argument . '/';
+                } else {
+                    $route .= $argument . '/';
+                    $regexRoute .= $argument . '/';
+                }
+            }
+        }
+        $regexRoute = '@^' . $regexRoute .= '?$@';
+        return $regexRoute;
+    }
+
     public function render() {
-        global $pageContent, $pageTitle, $rootURL;
+        global $pageTitle, $rootURL;
 
         if((config::development_mode ?? false) == true) {
             error_reporting(E_ALL);

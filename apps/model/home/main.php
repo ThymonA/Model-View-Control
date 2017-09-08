@@ -10,10 +10,14 @@
 class home extends model
 {
     public function index() {
+        echo blade()->run('default.header');
         echo blade()->run('home.main');
+        echo blade()->run('default.footer');
     }
 
     public function test($username = 'none') {
+        echo blade()->run('default.header');
         echo blade()->run('home.main');
+        echo blade()->run('default.footer');
     }
 }

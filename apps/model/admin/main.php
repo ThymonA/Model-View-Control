@@ -17,7 +17,9 @@ class admin extends model
         }
     }
 
-    public function signin() {
-
+    public function sign_in() {
+        echo blade()->run('default.header');
+        echo blade()->run('admin.sign-in');
+        echo blade()->run('default.footer');
     }
 }

@@ -10,8 +10,10 @@
 class test extends model
 {
     function index($username) {
+        echo blade()->run('default.header');
         echo blade()->run('admin.main', [
             'username' => $username
         ]);
+        echo blade()->run('default.footer');
     }
 }
