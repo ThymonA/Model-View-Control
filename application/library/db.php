@@ -16,8 +16,18 @@ class DB
     const TEXT = 'text';
     const DATE = 'date';
 
-    public function __construct($table) {
-        $this->table = $table;
-        return $this;
+    /** @var $statement PDOStatement */
+    private $statement;
+
+    public function __construct(PDOStatement $statement) {
+        $this->statement = $statement;
+    }
+
+    public function single() {
+        return $this->statement->fetch(PDO::FETCH_ASSOC);
+    }
+
+    public function multiple() {
+        return $this->statement->fetchAll(PDO::FETCH_ASSOC);
     }
 }

@@ -9,25 +9,26 @@
 
 class model {
 
-    private $database;
+    private $table;
     private $pdo;
-    private $statement;
 
     function __construct() {
         $this->pdo = new PDO(config::db_type . ':host=' . config::db_server . ';dbname=' . config::db_database . ';charset' . config::db_charset, config::db_username, config::db_password, [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC, PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING]);
     }
 
-    protected function prepare($query) {
-        if(is_string($query)) {
-            $this->statement = $this->pdo->prepare($query);
-            $this->database = new database($this->statement);
-            return $this->database;
+    public function table($table) {
+        $stmt = $this->pdo->prepare('SHOW TABLES LIKE :tableName');
+        $stmt->bindValue(':tableName', strtolower($table), PDO::PARAM_STR);
+        $stmt->execute();
+        if($stmt->rowCount() > 0) {
+            $this->table = strtolower($table);
+            return new database($this);
         } else {
-            die('Query isn\'t a string');
+            breakMessage('model->table()', 'table ( ' . strtolower($table) . ' ) doesn\'t exist in ( ' . config::db_server . ' )\\' . config::db_database);
         }
     }
 
-    public function select($name) {
-        return new DB($name);
+    public function get($variable = '') {
+        return $this->{@$variable} ?? null;
     }
 }

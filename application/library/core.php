@@ -107,3 +107,11 @@ function navActive($route = '/') {
         return 'not-active';
     }
 }
+
+function view($options = []) {
+
+}
+
+function breakMessage($title, $description) {
+    die('<div style="background-color: red; color: black; padding: 3px; border: solid 1px black; font-family: \'Arial\' ">' . ucfirst($title) . ':<br><span style="color:white">' . $description . '</span><br></div>');
+}
